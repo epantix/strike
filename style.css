@@ -1,0 +1,44 @@
+.map {
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.1);
+  background-image: url("./img/cosmos.jpg");
+  background-size: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rocket {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("./img/rocket.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.1s;
+}
+
+.bullet {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  transition: transform 0.1s;
+}
+
+#r1 {
+  top: 200px;
+  left: 200px;
+}
+
+#r2 {
+  top: 300px;
+  left: 300px;
+}
